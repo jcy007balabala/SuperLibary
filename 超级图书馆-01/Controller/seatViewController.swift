@@ -116,6 +116,7 @@ class seatViewController: UIViewController,UITableViewDataSource,UITableViewDele
         if(cell == nil){
             cell=UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: identifier);
         }
+        print("tuishong")
         let  str1 = "座位";
         var  turn  = indexPath.row;
         
